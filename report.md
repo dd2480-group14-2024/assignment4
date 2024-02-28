@@ -54,9 +54,16 @@ Optional (point 3): trace tests to requirements.
 
 ### Patch
 
-(copy your changes or the add git command to show them)
+#### #2584
 
-git diff ...
+The link to the branch containing the patch as well as links to the changes in each file for this issue is presented below
+
+[#2584](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2584/add-duplicate-step-button), 
+[EditButton.tsx](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/webui/src/Buttons/EditButton.tsx#L437), 
+[SocketIO.ts](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/shared-lib/lib/SocketIO.ts#L172), 
+[IControlFragments.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/IControlFragments.js#L49), 
+[Controller.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/Controller.js#L657), 
+[Normal.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/ControlTypes/Button/Normal.js#L848)
 
 Optional (point 4): the patch is clean.
 
