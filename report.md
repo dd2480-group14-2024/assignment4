@@ -36,7 +36,7 @@ For setting up tools and libraries (step 4), enumerate all dependencies
 you took care of and where you spent your time, if that time exceeds
 30 minutes.
 
-## Overview of issue(s) and work done.
+## Overview of issues and work done.
 
 Title: Add "Duplicate Step" button #2584
 
