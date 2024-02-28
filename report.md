@@ -44,7 +44,7 @@ URL: [#2584](https://github.com/bitfocus/companion/issues/2584)
 
 Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. Occasionally, steps involve very similar action sequences. To address this, the feature incorporates a button that enables the duplication of a step, eliminating the need for users to redo work over and over.
 
-Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the socket communication.
+Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the websocket communication.
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
