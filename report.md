@@ -75,7 +75,13 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 ![before img](./test_logs/log_before.png)
 
-![Logs]()
+[Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
+
+### After
+
+![After img](.test_logs/log_after.png)
+
+[Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after.txt)
 
 ## UML class diagram and its description
 
