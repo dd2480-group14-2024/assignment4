@@ -71,8 +71,11 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 ## Test results
 
-Overall results with link to a copy or excerpt of the logs (before/after
-refactoring).
+### Before
+
+![before img](./test_logs/log_before.png)
+
+![Logs]()
 
 ## UML class diagram and its description
 
