@@ -56,7 +56,7 @@ Optional (point 3): trace tests to requirements.
 
 #### #2584
 
-The link to the branch containing the patch as well as links to the changes in each file for this issue is presented below
+The link to the branch containing the patch as well as links to the changes in each affected file for this issue is presented below. The patch is clean (point 4) as it primarily introduces new code into the project without introducing any unnecessary alterations or additions to whitespace.
 
 [#2584](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2584/add-duplicate-step-button), 
 [EditButton.tsx](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/webui/src/Buttons/EditButton.tsx#L437), 
