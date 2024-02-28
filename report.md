@@ -10,9 +10,7 @@ URL: [Bitfocus](https://github.com/bitfocus/companion), [Fork](https://github.co
 
 ## Onboarding experience
 
-Did you choose a new project or continue on the previous one?
-
-If you changed the project, how did your experience differ from before?
+The project we worked on in assignment 3 did not have a very active community, a lot of tests failed and the documentation was very poor so we chose to go with another project this time around. The experience was completely different. Bitfocus Companion has a very active community of developers and users so it was more fun to work on. The documentation was well made and consisted of step-by-step guides on how to set up the developer environment for any platform, and there were also other useful documents available for developers such as information on how to contribute to the project.
 
 ## Effort spent
 
