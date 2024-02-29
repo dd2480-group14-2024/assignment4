@@ -65,7 +65,19 @@ Scope: The implementation required changes to five different source files. The c
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
-Optional (point 3): trace tests to requirements.
+### #2584 Add duplicate step button
+
+R1: User interface. 
+
+A button for duplicating a step should be added to the edit button component in the web UI next to the already existing "add step" and "remove step" buttons. 
+
+R2: Feature description.
+
+Users should be able to duplicate a step when editing a button's functionality. When duplicating a step, a new step should be created for the button that contains a copy of the sequence of actions that exist in the current step. 
+
+R3: Integration.
+
+The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
 
 ## Code changes
 
