@@ -87,6 +87,10 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 ### Key changes/classes affected
 
+#### #2584 UML diagram
+
+![Issue #2584](./assets/issue2584.drawio.png)
+
 Optional (point 1): Architectural overview.
 
 Optional (point 2): relation to design pattern(s).
