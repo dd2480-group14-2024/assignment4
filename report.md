@@ -89,6 +89,8 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 #### #2584 UML diagram
 
+The diagram below contains the methods and fields in the classes that are affected by the patch for this issue and some other relevant ones. The client (EditButton class) sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the ControlWithSteps interface. When the step has been duplicated, the controller sends back the id of the new step to the client (EditButton). The ClientToBackendEventMap interface contains definitions for all the socket handler functions which the controller implements.
+
 ![Issue #2584](./assets/issue2584.drawio.png)
 
 Optional (point 1): Architectural overview.
