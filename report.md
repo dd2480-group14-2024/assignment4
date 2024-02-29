@@ -83,7 +83,7 @@ The feature should integrate seamlessly with the current software and should not
 
 ### Patch
 
-#### #2584
+#### #2584 Add duplicate step button
 
 The link to the branch containing the patch as well as links to the changes in each affected file for this issue is presented below. The patch is clean (point 4) as it primarily introduces new code into the project without introducing any unnecessary alterations or additions to whitespace.
 
