@@ -14,7 +14,7 @@ The project we worked on in assignment 3 did not have a very active community, a
 
 ## Effort spent
 
-For each team member, how much time was spent in
+__Leo Vainio__
 
 1. plenary discussions/meetings;
 
@@ -32,9 +32,26 @@ For each team member, how much time was spent in
 
 8. running code?
 
-For setting up tools and libraries (step 4), enumerate all dependencies
-you took care of and where you spent your time, if that time exceeds
-30 minutes.
+
+__placeholder__
+
+1. plenary discussions/meetings;
+
+2. discussions within parts of the group;
+
+3. reading documentation;
+
+4. configuration and setup;
+
+5. analyzing code/output;
+
+6. writing documentation;
+
+7. writing code;
+
+8. running code?
+
+
 
 ## Overview of issues and work done.
 
@@ -89,7 +106,7 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 #### #2584 UML diagram
 
-The diagram below contains the methods and fields in the classes that are affected by the patch for this issue and some other relevant ones. The client (EditButton class) sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the ControlWithSteps interface. When the step has been duplicated, the controller sends back the id of the new step to the client (EditButton). The ClientToBackendEventMap interface contains definitions for all the socket handler functions which the controller implements.
+The project uses the very popular model view controller (MVC) design pattern for their web UI interface. The diagram below contains the methods and fields in the classes that are affected by the patch for this issue and some other relevant ones. The client (EditButton class), which is part of the view (the web UI), sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the ControlWithSteps interface. When the step has been added/duplicated the change is saved on the server, and the controller sends back the id of the new step to the client (EditButton). The ClientToBackendEventMap interface contains definitions for all the socket handler functions which the controller implements.
 
 ![Issue #2584](./assets/issue2584.drawio.png)
 
