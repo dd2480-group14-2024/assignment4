@@ -17,6 +17,7 @@ The project we worked on in assignment 3 did not have a very active community, a
 __Leo Vainio__
 
 1. plenary discussions/meetings;
+1 hour consisting of choosing project, issues, and dividing work.
 
 2. discussions within parts of the group;
 
