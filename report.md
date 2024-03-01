@@ -42,7 +42,7 @@ __Leo Vainio__
 
 7. writing code;
 
-6 hours. Most time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder but in the end it wasn't too hard to implement the feature.
+10 hours. Most time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder but in the end it wasn't too hard to implement the feature. Writing tests took some time also since I wasn't familiar with the framework.
 
 8. running code
 
