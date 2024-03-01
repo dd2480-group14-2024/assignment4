@@ -17,22 +17,36 @@ The project we worked on in assignment 3 did not have a very active community, a
 __Leo Vainio__
 
 1. plenary discussions/meetings;
+
 1 hour consisting of choosing project, issues, and dividing work.
 
 2. discussions within parts of the group;
 
+1 hour. 
+
 3. reading documentation;
+
+2-3 hours, mainly learning react and reading through docs of the Bitfocus Companion repository.
 
 4. configuration and setup;
 
+1 hour. 
+
 5. analyzing code/output;
+
+2 hours.   
 
 6. writing documentation;
 
+1-2 hours. Creating UML diagram and adding stuff to this report.
+
 7. writing code;
 
-8. running code?
+6 hours. Most time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder but in the end it wasn't too hard to implement the feature.
 
+8. running code
+
+1 hour. The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.
 
 __placeholder__
 
