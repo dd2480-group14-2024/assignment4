@@ -106,11 +106,15 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 [Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
 
-### After
+### After #2584
 
-![After img](.test_logs/log_after.png)
+There were no specific tests for this issue before we started but one test was added (linked below) which is mostly linked to requirement R2. It checks that the duplicated step is a copy of the original one and not the same object. As seen in the logs below it is also clear that requirement R3 is fulfilled since the implementation causes no breaks in the other tests.
 
-[Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after.txt)
+[Link to test]()
+
+![After img](./test_logs/log_after_2584.png)
+
+[Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2584.txt)
 
 ## UML class diagram and its description
 

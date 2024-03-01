@@ -1,0 +1,504 @@
+(node:174192) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ PASS  companion/test/Service/HttpApi.test.js
+  HttpApi
+    surfaces
+      rescan
+        ✓ ok (25 ms)
+        ✓ failed (4 ms)
+    custom-variable
+      set value
+        ✓ no value (3 ms)
+        ✓ ok from query (4 ms)
+        ✓ ok from body (13 ms)
+        ✓ unknown name (3 ms)
+      get value
+        ✓ no value (2 ms)
+        ✓ value empty string (3 ms)
+        ✓ value proper string (3 ms)
+        ✓ value zero number (2 ms)
+        ✓ value real number (2 ms)
+        ✓ value false (3 ms)
+        ✓ value true (4 ms)
+        ✓ value object (3 ms)
+    controls by location
+      down
+        ✓ no control (2 ms)
+        ✓ ok (5 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (3 ms)
+        ✓ bad column (2 ms)
+      up
+        ✓ no control (2 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (2 ms)
+        ✓ bad column (2 ms)
+      press
+        ✓ no control (2 ms)
+        ✓ ok (3 ms)
+        ✓ bad page (6 ms)
+        ✓ bad row (4 ms)
+        ✓ bad column (7 ms)
+      rotate left
+        ✓ no control (2 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (2 ms)
+        ✓ bad column (2 ms)
+      rotate right
+        ✓ no control (2 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (3 ms)
+        ✓ bad row (2 ms)
+        ✓ bad column (2 ms)
+      set step
+        ✓ no control (2 ms)
+        ✓ no payload (2 ms)
+        ✓ ok (3 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (3 ms)
+        ✓ bad column (2 ms)
+      set style
+        ✓ no control (2 ms)
+        ✓ control without style (2 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (2 ms)
+        ✓ bad column (2 ms)
+        ✓ set style without properties (3 ms)
+        ✓ set style unknown properties (2 ms)
+        ✓ set color properties (6 ms)
+        ✓ set color properties bad (4 ms)
+        ✓ set text size auto (3 ms)
+        ✓ set text size bad (2 ms)
+        ✓ set text size number (3 ms)
+        ✓ set text (2 ms)
+        ✓ set empty text (6 ms)
+        ✓ set empty png (7 ms)
+        ✓ set bad png (3 ms)
+        ✓ set png (3 ms)
+        ✓ set bad alignment (6 ms)
+        ✓ set alignment (2 ms)
+        ✓ set bad pngalignment (8 ms)
+        ✓ set pngalignment (3 ms)
+
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+warn: Socket error: Bind Error {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+warn: Socket error: Bind Error {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 3 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 3 members {"source":"Service/SharedUdpPort/udp4/1234"}
+warn: Socket error: my fake error {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 0 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Disposing of shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 0 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Disposing of shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 0 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Disposing of shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 0 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Disposing of shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Initialising shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 2 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 1 members {"source":"Service/SharedUdpPort/udp4/1234"}
+debug: Now has 0 members {"source":"Service/SharedUdpPort/udp4/1234"}
+info: Disposing of shared socket {"source":"Service/SharedUdpPort/udp4/1234"}
+ PASS  companion/test/Service/SharedUdpManager.test.js
+  SharedUdpManager
+    join
+      ✓ create socket ok (7 ms)
+      ✓ bind throws error (16 ms)
+      ✓ bind emit error (4 ms)
+      ✓ second join (2 ms)
+    sendOnPort
+      ✓ send ok (2 ms)
+      ✓ send bad ownerId (1 ms)
+      ✓ send bad handleId (1 ms)
+      ✓ multiple handles can send (1 ms)
+    callbacks
+      ✓ message (3 ms)
+      ✓ error (3 ms)
+    leavePort
+      ✓ leave joined (1 ms)
+      ✓ leave without join (2 ms)
+      ✓ leave without join 2 (1 ms)
+      ✓ second join with leaves (1 ms)
+    leaveAllFromOwner
+      ✓ leave joined (1 ms)
+      ✓ leave without join (4 ms)
+      ✓ second join with leaves (1 ms)
+      ✓ second join with leaves (2 ms)
+
+  console.log
+    Got:
+
+      at log (companion/test/v2tov3-upgradeStartup.test.js:11:10)
+
+  console.log
+    { page_config_version: 3 }
+
+      at log (companion/test/v2tov3-upgradeStartup.test.js:12:10)
+
+silly: db_get(bank) {"source":"Data/Database"}
+silly: db_get(bank_actions) {"source":"Data/Database"}
+silly: db_get(bank_release_actions) {"source":"Data/Database"}
+silly: db_get(bank_rotate_left_actions) {"source":"Data/Database"}
+silly: db_get(bank_rotate_right_actions) {"source":"Data/Database"}
+silly: db_del (bank_actions) {"source":"Data/Database"}
+silly: db_del (bank_release_actions) {"source":"Data/Database"}
+silly: db_get(bank) {"source":"Data/Database"}
+silly: db_get(feedbacks) {"source":"Data/Database"}
+silly: db_del (bank) {"source":"Data/Database"}
+silly: db_del (feedbacks) {"source":"Data/Database"}
+silly: db_del (bank_action_sets) {"source":"Data/Database"}
+silly: db_set(controls, [object Object]) {"source":"Data/Database"}
+silly: db_get(controls) {"source":"Data/Database"}
+silly: db_get(deviceconfig) {"source":"Data/Database"}
+ PASS  companion/test/v2tov3-upgradeStartup.test.js
+  upgrade
+    ✓ empty (21 ms)
+
+ PASS  companion/test/variables-parse.test.js
+  variable parsing
+    ✓ undefined string (2 ms)
+    ✓ empty string
+    ✓ simple unknown variable (1 ms)
+    ✓ malformed variable
+    ✓ unknown variable
+    ✓ basic variable (1 ms)
+    ✓ simple inter variable references
+    ✓ self referencing variable (3 ms)
+    ✓ infinite referencing variable (1 ms)
+    ✓ variable name from variable name
+
+ PASS  companion/test/Service/Duplicate.test.js
+  Duplicate
+    Duplicate step test
+      ✓ Duplicate step test (5 ms)
+
+ PASS  companion/test/Service/TcpUdpApi.test.js
+  TcpUdpApi
+    surfaces
+      rescan
+        ✓ ok (5 ms)
+        ✓ failed (3 ms)
+    custom-variable
+      set value
+        ✓ ok from query (1 ms)
+        ✓ ok empty (2 ms)
+    controls by location
+      down
+        ✓ no control (24 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (2 ms)
+      up
+        ✓ no control (2 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      press
+        ✓ no control (2 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (2 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (4 ms)
+      rotate left
+        ✓ no control (1 ms)
+        ✓ ok (2 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      rotate right
+        ✓ no control (1 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      set step
+        ✓ no control (1 ms)
+        ✓ no payload (5 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      set style: text
+        ✓ no control (1 ms)
+        ✓ ok (1 ms)
+        ✓ ok no text (1 ms)
+      set style: color
+        ✓ no control (1 ms)
+        ✓ ok hex (1 ms)
+        ✓ ok css (1 ms)
+      set style: bgcolor
+        ✓ no control (2 ms)
+        ✓ ok hex (5 ms)
+        ✓ ok css (1 ms)
+
+ PASS  companion/test/Service/OscApi.test.js
+  OscApi
+    surfaces
+      rescan
+        ✓ ok (4 ms)
+        ✓ failed (2 ms)
+    custom-variable
+      set value
+        ✓ no value (4 ms)
+        ✓ ok from query (1 ms)
+        ✓ ok from body (1 ms)
+        ✓ unknown name (1 ms)
+    controls by location
+      down
+        ✓ no control (2 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      up
+        ✓ no control (1 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      press
+        ✓ no control (1 ms)
+        ✓ ok (4 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row
+        ✓ bad column (1 ms)
+      rotate left
+        ✓ no control (2 ms)
+        ✓ ok (1 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row
+        ✓ bad column
+      rotate right
+        ✓ no control (1 ms)
+        ✓ ok (1 ms)
+        ✓ bad page
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      set step
+        ✓ no control (1 ms)
+        ✓ no payload (1 ms)
+        ✓ ok (1 ms)
+        ✓ string step (3 ms)
+        ✓ bad page (1 ms)
+        ✓ bad row (1 ms)
+        ✓ bad column (1 ms)
+      set style: text
+        ✓ no control (1 ms)
+        ✓ ok (1 ms)
+      set style: color
+        ✓ no control (1 ms)
+        ✓ ok hex (2 ms)
+        ✓ ok separate (1 ms)
+        ✓ ok css (1 ms)
+      set style: bgcolor
+        ✓ no control (1 ms)
+        ✓ ok hex (1 ms)
+        ✓ ok separate (1 ms)
+        ✓ ok css (2 ms)
+
+ PASS  shared-lib/test/expressions-resolver.test.js
+  resolver
+    ensure each binary operator is implemented
+      ✓ should handle "||" operator (3 ms)
+      ✓ should handle "&&" operator
+      ✓ should handle "|" operator
+      ✓ should handle "^" operator
+      ✓ should handle "&" operator (1 ms)
+      ✓ should handle "==" operator
+      ✓ should handle "!=" operator (1 ms)
+      ✓ should handle "===" operator
+      ✓ should handle "!==" operator
+      ✓ should handle "<" operator
+      ✓ should handle ">" operator
+      ✓ should handle "<=" operator
+      ✓ should handle ">=" operator
+      ✓ should handle "<<" operator (1 ms)
+      ✓ should handle ">>" operator
+      ✓ should handle "+" operator
+      ✓ should handle "-" operator
+      ✓ should handle "*" operator
+      ✓ should handle "/" operator (1 ms)
+      ✓ should handle "%" operator
+    ensure each unary operator is implemented
+      ✓ should handle "-" operator (1 ms)
+      ✓ should handle "!" operator
+      ✓ should handle "~" operator
+      ✓ should handle "+" operator
+    expressions with literal operand
+      ✓ should handle addition
+      ✓ should handle addition (1 ms)
+      ✓ should handle multiplication
+      ✓ should handle division
+      ✓ should handle unary negation (1 ms)
+      ✓ should handle consecutive unary negation
+      ✓ should handle consecutive unary negation with parenthesis (1 ms)
+      ✓ should handle negation of expression within parenthesis
+      ✓ should handle multiple operators
+      ✓ should handle floating point literals
+      ✓ should handle division by zero
+    expressions with symbol/variable operands
+      ✓ should handle symbol and literal operands (4 ms)
+      ✓ should handle multiple symbol operands
+      ✓ handle string variables
+      ✓ should handle duplicate symbol operands
+    expressions with errors
+      ✓ should detect missing symbol values (13 ms)
+      ✓ should detect missing operands (3 ms)
+      ✓ should detect extraneous operands
+    functions
+      ✓ should parse and execute provided functions
+      ✓ should fail on an unknown function
+      ✓ should handle multiple function arguments
+    ternaries
+      ✓ should parse and execute ternary
+    templates
+      ✓ handle template
+      ✓ handle template at start
+      ✓ handle template at end
+      ✓ handle complex templates
+    objects
+      ✓ handle object define and lookup (1 ms)
+      ✓ handle object define and lookup - multi level
+      ✓ handle object define and lookup - missing prop
+      ✓ handle object define and lookup - off string
+      ✓ handle object define and lookup - off companion variable
+      ✓ define object - using companion variable (1 ms)
+      ✓ define array (1 ms)
+      ✓ define array - with lookup
+
+ PASS  shared-lib/test/expressions-functions.test.js
+  functions
+    number
+      ✓ round (2 ms)
+      ✓ floor
+      ✓ ceil
+      ✓ abs (1 ms)
+      ✓ fromRadix (1 ms)
+      ✓ toRadix
+      ✓ toFixed
+      ✓ isNumber (1 ms)
+      ✓ max (1 ms)
+      ✓ min
+      ✓ unixNow (1 ms)
+      ✓ timestampToSeconds
+      ✓ randomInt (13 ms)
+    string
+      ✓ trim (1 ms)
+      ✓ strlen
+      ✓ substr (1 ms)
+      ✓ concat
+      ✓ split (2 ms)
+      ✓ includes
+      ✓ indexOf (1 ms)
+      ✓ lastIndexOf
+      ✓ toUpperCase
+      ✓ toLowerCase
+      ✓ replaceAll (1 ms)
+      ✓ secondsToTimestamp (1 ms)
+      ✓ msToTimestamp (1 ms)
+    boolean
+      ✓ bool
+    object
+      ✓ jsonpath (3 ms)
+      ✓ jsonparse (1 ms)
+      ✓ jsonparse
+
+ PASS  shared-lib/test/expressions-parse.test.js
+  parser
+    operator precedence
+      ✓ should handle expressions with single operators (3 ms)
+      ✓ should handle multiple operators with same precedence (1 ms)
+      ✓ should handle multiple operators with different precedence
+      ✓ should handle parenthesis
+      ✓ should handle embedded parenthesis (1 ms)
+    unary negative
+      ✓ should handle at the beginning of the expression (1 ms)
+      ✓ should handle in the middle of an expression
+      ✓ should handle before open parenthesis
+      ✓ boolean expression (1 ms)
+      ✓ boolean expression2
+    syntax errors
+      ✓ should detect invalid tokens (13 ms)
+      ✓ should detect missing parenthesis (1 ms)
+    functions
+      ✓ should detect function
+    identifier
+      ✓ should accept null
+      ✓ should accept undefined
+    ternaries
+      ✓ handle ternary
+    template
+      ✓ handle template (1 ms)
+      ✓ handle complex templates
+    variable parsing
+      ✓ unclosed identifier (1 ms)
+      ✓ no name
+    object property
+      ✓ from created object (1 ms)
+      ✓ from variable
+      ✓ chained
+      ✓ array
+
+ PASS  companion/test/Service/Rosstalk.test.js
+  Rosstalk
+    CC - bank
+      ✓ no control (3 ms)
+      ✓ out of range (1 ms)
+      ✓ bad format (1 ms)
+      ✓ ok - index (1 ms)
+      ✓ bad format coordinates
+      ✓ ok - coordinates (1 ms)
+
+Test Suites: 11 passed, 11 total
+Tests:       306 passed, 306 total
+Snapshots:   0 total
+Time:        2.698 s
+Ran all test suites.
