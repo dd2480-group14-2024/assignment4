@@ -48,6 +48,20 @@ __Leo Vainio__
 
 Approximately 1 hour. The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.
 
+__Teodor Morfeldt Gadler__
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            |         |
+| discussions within parts of the group | 1            |         |
+| reading documentation                 | 2            |         |
+| configuration and setup               | 3            |         |
+| analyzing code/output                 | 10           |         |
+| writing documentation                 | 1            |         |
+| writing code                          | 8            |         |
+| running code                          | <1           |         |
+
+
+
 __placeholder__
 
 1. plenary discussions/meetings;
@@ -65,8 +79,6 @@ __placeholder__
 7. writing code;
 
 8. running code?
-
-
 
 ## Overview of issues and work done.
 
