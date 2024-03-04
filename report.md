@@ -161,6 +161,8 @@ Optional (point 2): relation to design pattern(s).
 
 What are your main take-aways from this project? What did you learn?
 
+The major thing we learned from this was about contributing to open source projects. We practiced getting involved in a project by first reading the documentation to get a grasp of what the project was about, and then found interesting issues to resolve.
+
 How did you grow as a team, using the Essence standard to evaluate yourself?
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
