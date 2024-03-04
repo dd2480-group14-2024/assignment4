@@ -165,6 +165,8 @@ The major thing we learned from this was about contributing to open source proje
 
 How did you grow as a team, using the Essence standard to evaluate yourself?
 
+Our team is still in the performing stage. The team is working well together, and we are able to work autonomously. We are usually able to meet all of our commitments, and we are able to adapt our way of workig to suit each assignment. After the completion of this final lab, the team will enter the adjourned state, as we will have accomplished everything we set out to do. During the course, our communication and understanding of each other has improved, which has led to more effective teamwork and a clearer division of tasks. This could of course still be improved further. We usually don't have many meetings apart from an initial one to distribute responsibilities. Having more regular meetings to stay synced with one another is one possible improvement to make sure we are always on the same page.
+
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
 Optional (point 7): Is there something special you want to mention here?
