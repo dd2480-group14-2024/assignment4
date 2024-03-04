@@ -179,3 +179,7 @@ Below we cover the alphas: Requirements, Software System, Stakeholders and Work.
   - A major limitation is the time constraint we had, since the assignment had to be submitted within two weeks. This limited the amount of     issues we could look at and features we could implement. If we had had more time, it would have been possible to conclude the work with     greater results achieved.
 
 Optional (point 7): Is there something special you want to mention here?
+
+Optional (point 8): In the context of Jonas Öberg's lecture last week, where do you put the project that you have chosen in an ecosystem of open-source and closed-source software? Is your project (as it is now) something that has replaced or can replace similar proprietary software? Why (not)?
+
+As the code is available for anyone to access, and since there is a licese which clearly states that anyone can contribute to and use the code as they wish, the project can definitely be considered an open source project. As far as we can tell, this project won't replace ay proprietary software, as it is hard to find other proprietary projects which cover the same area as this.
