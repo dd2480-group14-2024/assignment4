@@ -169,4 +169,11 @@ Our team is still in the performing stage. The team is working well together, an
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
+Below we cover the alphas: Requirements and Software System.
+
+- Benefits of work carried out
+  - One major benefit of the work we carried out is that, since more issues have been resolved, more requirements have been met, meaning        that the requirements alpha has gotten closer to being fullfilled. This also entails that the state of the software system has been         improved. The issues we worked on mainly served to improve the user experience, meaning that the system could be more easily operated,      making it more usable.
+- Drawbacks of work carried out
+- Limitations of work carried out
+
 Optional (point 7): Is there something special you want to mention here?
