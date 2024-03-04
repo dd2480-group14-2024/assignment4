@@ -30,7 +30,7 @@ __Leo Vainio__
 
 4. configuration and setup;
 
-1 hour. 
+1 hour. I got some errors running the project at first due to some missing dependencies but after following the steps provided in the documentation this was solved.
 
 5. analyzing code/output;
 
@@ -38,15 +38,15 @@ __Leo Vainio__
 
 6. writing documentation;
 
-1-2 hours. Creating UML diagram and adding stuff to this report.
+1-2 hours. Creating UML diagram and adding documentation in this report.
 
 7. writing code;
 
-10 hours. Most time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder but in the end it wasn't too hard to implement the feature. Writing tests took some time also since I wasn't familiar with the framework.
+10 hours. In the beginning, some time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder, but in the end it wasn't too hard to implement the feature. I implemented the duplicate step button (Issue #2584) and wrote a test for it. Writing tests took some time also since I wasn't familiar with the framework.
 
 8. running code
 
-1 hour. The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.
+Approximately 1 hour. The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.
 
 __placeholder__
 
