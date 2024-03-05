@@ -101,8 +101,12 @@ Summary: The software includes a feature that allows users to associate a button
 
 Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the websocket communication.
 
+
+
 Title: Add Custom Names to Step Tabs #2605
+
 URL: [#2605](https://github.com/bitfocus/companion/issues/2605)
+
 Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. This feature enables users to customize what they want to name the steps which can help with organization and for finding specific tasks. Currently, the steps are automatically named in order (ex: Step 0, Step 1, Step 2) with no option of customizing the names.
 
 Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication on the backend.
