@@ -51,14 +51,14 @@ Approximately 1 hour. The project takes a minute to build so running it after ch
 __Teodor Morfeldt Gadler__
 | What                                  | Time (hours) | Comment |
 | ------------------------------------- | ------------ | ------- |
-| plenary discussions/meetings          | 1            |         |
-| discussions within parts of the group | 1            |         |
-| reading documentation                 | 2            |         |
-| configuration and setup               | 3            |         |
-| analyzing code/output                 | 10           |         |
+| plenary discussions/meetings          | 1            | 1 meeting to setup project        |
+| discussions within parts of the group | 1            | Mostly related to setup issues        |
+| reading documentation                 | 2            | Read  all I could find whil troubleshooting setup        |
+| configuration and setup               | 3            | 3. Spent almost all of it to try to get the project to run using WSL. Worked almost immediately with mac.        |
+| analyzing code/output                 | 10           | Mostly spent trying to find a way to get a list of all controls/buttons in the application        |
 | writing documentation                 | 1            |         |
-| writing code                          | 8            |         |
-| running code                          | <1           |         |
+| writing code                          | 8            | Lots of troubleshooting related to my lack of experience with React and TypeScript        |
+| running code                          | <1           | Sort of the same as "analyzing output"        |
 
 
 
@@ -82,13 +82,19 @@ __placeholder__
 
 ## Overview of issues and work done.
 
-Title: Add "Duplicate Step" button #2584
+__Title: Add "Duplicate Step" button #2584__
 
 URL: [#2584](https://github.com/bitfocus/companion/issues/2584)
 
 Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. Occasionally, steps involve very similar action sequences. To address this, the feature incorporates a button that enables the duplication of a step, eliminating the need for users to redo work over and over.
 
 Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the websocket communication.
+
+__Title: List of where variable is used #2581__
+
+URL: [#2581](https://github.com/bitfocus/companion/issues/2581)
+
+Summary: The software supports the use of variables that can be used to modify the action or visuals of buttons/controls. The software provides a view of all the variables. The goal is to add information about where (as in by what button) and how each variable is used to this view.
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
@@ -101,6 +107,20 @@ A button for duplicating a step should be added to the edit button component in 
 R2: Feature description.
 
 Users should be able to duplicate a step when editing a button's functionality. When duplicating a step, a new step should be created for the button that contains a copy of the sequence of actions that exist in the current step. 
+
+R3: Integration.
+
+The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
+
+### #2581 List of where variable is being used
+
+R1: User interface. 
+
+A list of where each variable is being used should be added to the current view of all variables
+
+R2: Feature description.
+
+For each use of a variable the view should show which button uses it and how (e.g. action/feedback/name)
 
 R3: Integration.
 
@@ -152,6 +172,38 @@ There were no specific tests for this issue before we started but one test was a
 The project uses the very popular model view controller (MVC) design pattern for their web UI interface. The diagram below contains the methods and fields in the classes that are affected by the patch for this issue and some other relevant ones. The client (EditButton class), which is part of the view (the web UI), sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the ControlWithSteps interface. When the step has been added/duplicated the change is saved on the server, and the controller sends back the id of the new step to the client (EditButton). The ClientToBackendEventMap interface contains definitions for all the socket handler functions which the controller implements.
 
 ![Issue #2584](./assets/issue2584.drawio.png)
+
+Optional (point 1): Architectural overview.
+
+Optional (point 2): relation to design pattern(s).
+
+## Code changes
+
+### Patch
+
+`git diff feat/issue-2581/list-of-variables-are-used..main`
+
+Optional (point 4): the patch is clean. Yes, it is.
+
+Optional (point 5): considered for acceptance (passes all automated checks). Yes.
+
+## Test results
+
+### Before
+![before img](./test_logs/log_before.png)
+
+[Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
+
+### After #2581
+![After img](./test_logs/log_after_2581.png)
+
+I did not have the time to complete the implementation of additional unit tests.
+
+## UML class diagram and its description
+
+### Key changes/classes affected
+`Variable.js`, `SocketIO.js` and `CustomVariableList.tsx`, 
+
 
 Optional (point 1): Architectural overview.
 
