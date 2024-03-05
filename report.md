@@ -73,6 +73,18 @@ __Luna Chen__
 | running code                          | 1            |         |
 
 
+__William Nordwall__
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            |         |
+| discussions within parts of the group | 1            |         |
+| reading documentation                 | 3            |         |
+| configuration and setup               | 3            |         |
+| analyzing code/output                 | <1            |         |
+| writing documentation                 | 8            |         |
+| writing code                          | <1            |         |
+| running code                          | <1            |         |
+
 __placeholder__
 
 1. plenary discussions/meetings;
