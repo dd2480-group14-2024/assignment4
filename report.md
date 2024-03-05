@@ -107,20 +107,6 @@ Summary: The software includes a feature that allows users to associate a button
 
 Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication on the backend.
 
-### #2605 Add custom names to step tabs
-
-R1: User Interface Enhancement
-
-A user should have the ability to assign custom names to step tabs within the edit button component of the web UI. This functionality should be accessible and intuitive, possibly through an inline edit option directly on the step tab or by double clicking the step tab.
-
-R2: Feature Functionality
-
-Upon clicking or selecting a step tab, users should be presented with an option to rename the step. The new name should be saved upon user confirmation like pressing Enter and should persist across sessions.
-
-R3: Data Persistence and Integration
-
-The custom names assigned to step tabs should be stored persistently, ensuring that the names are retained across different sessions and are not lost upon refreshing or reopening the web application. This feature should integrate with the backend to save the custom step names, ensuring compatibility with the current data models and workflows.
-
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
 ### #2584 Add duplicate step button
@@ -137,6 +123,20 @@ R3: Integration.
 
 The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
 
+### #2605 Add custom names to step tabs
+
+R1: User Interface Enhancement
+
+A user should have the ability to assign custom names to step tabs within the edit button component of the web UI. This functionality should be accessible and intuitive, possibly through an inline edit option directly on the step tab or by double clicking the step tab.
+
+R2: Feature Functionality
+
+Upon clicking or selecting a step tab, users should be presented with an option to rename the step. The new name should be saved upon user confirmation like pressing Enter and should persist across sessions.
+
+R3: Data Persistence and Integration
+
+The custom names assigned to step tabs should be stored persistently, ensuring that the names are retained across different sessions and are not lost upon refreshing or reopening the web application. This feature should integrate with the backend to save the custom step names, ensuring compatibility with the current data models and workflows.
+
 ## Code changes
 
 ### Patch
@@ -151,6 +151,10 @@ The link to the branch containing the patch as well as links to the changes in e
 [IControlFragments.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/IControlFragments.js#L49), 
 [Controller.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/Controller.js#L657), 
 [Normal.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/ControlTypes/Button/Normal.js#L848)
+
+#### #2605 Add Custom Names to Step Tabs
+
+[#2605(https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2605/add-custon-step-name)
 
 Optional (point 4): the patch is clean.
 
@@ -170,9 +174,18 @@ There were no specific tests for this issue before we started but one test was a
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/test/Service/Duplicate.test.js)
 
-![After img](./test_logs/log_after_2584.png)
+![After img](./test_logs/log_after_2605.png)
 
 [Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2584.txt)
+
+### After #2605
+
+There were no specific tests for this issue either but one test was added. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break.
+
+[Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2605/add-custon-step-name/companion/test/Service/Rename.test.js)
+
+![After img](./test_logs/log_after_2584.png)
+
 
 ## UML class diagram and its description
 
