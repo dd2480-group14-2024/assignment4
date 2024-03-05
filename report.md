@@ -60,6 +60,17 @@ __Teodor Morfeldt Gadler__
 | writing code                          | 8            |         |
 | running code                          | <1           |         |
 
+__Luna Chen__
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            |         |
+| discussions within parts of the group | 2            |         |
+| reading documentation                 | 2            |         |
+| configuration and setup               | 4            |         |
+| analyzing code/output                 | 4            |         |
+| writing documentation                 | 2            |         |
+| writing code                          | 6            |         |
+| running code                          | 1            |         |
 
 
 __placeholder__
@@ -89,6 +100,26 @@ URL: [#2584](https://github.com/bitfocus/companion/issues/2584)
 Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. Occasionally, steps involve very similar action sequences. To address this, the feature incorporates a button that enables the duplication of a step, eliminating the need for users to redo work over and over.
 
 Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the websocket communication.
+
+Title: Add Custom Names to Step Tabs #2605
+URL: [#2605](https://github.com/bitfocus/companion/issues/2605)
+Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. This feature enables users to customize what they want to name the steps which can help with organization and for finding specific tasks. Currently, the steps are automatically named in order (ex: Step 0, Step 1, Step 2) with no option of customizing the names.
+
+Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication on the backend.
+
+### #2605 Add custom names to step tabs
+
+R1: User Interface Enhancement
+
+A user should have the ability to assign custom names to step tabs within the edit button component of the web UI. This functionality should be accessible and intuitive, possibly through an inline edit option directly on the step tab or by double clicking the step tab.
+
+R2: Feature Functionality
+
+Upon clicking or selecting a step tab, users should be presented with an option to rename the step. The new name should be saved upon user confirmation like pressing Enter and should persist across sessions.
+
+R3: Data Persistence and Integration
+
+The custom names assigned to step tabs should be stored persistently, ensuring that the names are retained across different sessions and are not lost upon refreshing or reopening the web application. This feature should integrate with the backend to save the custom step names, ensuring compatibility with the current data models and workflows.
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
