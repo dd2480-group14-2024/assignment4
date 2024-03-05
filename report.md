@@ -186,9 +186,21 @@ The custom names assigned to step tabs should be stored persistently, ensuring t
 
 ### Patch
 
+#### #2581 List where variables are used
+`git diff feat/issue-2581/list-of-variables-are-used..main`
+
+`Variable.js`, `SocketIO.js` and `CustomVariableList.tsx` are the files that are affected by this patch.
+
+Optional (point 4): the patch is clean. Yes, it is.
+
+Optional (point 5): considered for acceptance (passes all automated checks). Yes.
+
+
 #### #2584 Add duplicate step button
 
 The link to the branch containing the patch as well as links to the changes in each affected file for this issue is presented below. The patch is clean (point 4) as it primarily introduces new code into the project without introducing any unnecessary alterations or additions to whitespace.
+
+Optional (point 4): the patch is clean. Yes, it is.
 
 [#2584](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2584/add-duplicate-step-button), 
 [EditButton.tsx](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/webui/src/Buttons/EditButton.tsx#L437), 
@@ -206,12 +218,17 @@ Optional (point 4): the patch is clean.
 Optional (point 5): considered for acceptance (passes all automated checks).
 
 ## Test results
-
 ### Before
-
 ![before img](./test_logs/log_before.png)
 
 [Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
+
+[Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
+
+### After #2581
+![After img](./test_logs/log_after_2581.png)
+
+I did not have the time to complete the implementation of additional unit tests.
 
 ### After #2584
 
@@ -251,31 +268,9 @@ Optional (point 2): relation to design pattern(s).
 
 ## Code changes
 
-### Patch
-
-`git diff feat/issue-2581/list-of-variables-are-used..main`
-
-Optional (point 4): the patch is clean. Yes, it is.
-
-Optional (point 5): considered for acceptance (passes all automated checks). Yes.
-
-## Test results
-
-### Before
-![before img](./test_logs/log_before.png)
-
-[Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
-
-### After #2581
-![After img](./test_logs/log_after_2581.png)
-
-I did not have the time to complete the implementation of additional unit tests.
-
 ## UML class diagram and its description
 
 ### Key changes/classes affected
-`Variable.js`, `SocketIO.js` and `CustomVariableList.tsx`, 
-
 
 Optional (point 1): Architectural overview.
 
