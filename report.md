@@ -72,6 +72,17 @@ __Luna Chen__
 | writing code                          | 6            |         |
 | running code                          | 1            |         |
 
+__Jodie Ooi__
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            |         |
+| discussions within parts of the group | 2            |         |
+| reading documentation                 | 2            |         |
+| configuration and setup               | 4            |         |
+| analyzing code/output                 | 4            |         |
+| writing documentation                 | 2            |         |
+| writing code                          | 6            |         |
+| running code                          | 1            |         |
 
 __William Nordwall__
 | What                                  | Time (hours) | Comment |
@@ -230,6 +241,9 @@ There were no specific tests for this issue either but one test was added. It ch
 The project uses the very popular model view controller (MVC) design pattern for their web UI interface. The diagram below contains the methods and fields in the classes that are affected by the patch for this issue and some other relevant ones. The client (EditButton class), which is part of the view (the web UI), sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the ControlWithSteps interface. When the step has been added/duplicated the change is saved on the server, and the controller sends back the id of the new step to the client (EditButton). The ClientToBackendEventMap interface contains definitions for all the socket handler functions which the controller implements.
 
 ![Issue #2584](./assets/issue2584.drawio.png)
+
+#### #2605 UML diagram
+![Issue #2605](./assets/issue2605.jpg)
 
 Optional (point 1): Architectural overview.
 
