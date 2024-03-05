@@ -78,7 +78,7 @@ __William Nordwall__
 | ------------------------------------- | ------------ | ------- |
 | plenary discussions/meetings          | 1            |         |
 | discussions within parts of the group | 1            |         |
-| reading documentation                 | 3            |         |
+| reading documentation                 | 4            |         |
 | configuration and setup               | 3            |         |
 | analyzing code/output                 | <1            |         |
 | writing documentation                 | 8            |         |
