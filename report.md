@@ -60,6 +60,17 @@ __Teodor Morfeldt Gadler__
 | writing code                          | 8            | Lots of troubleshooting related to my lack of experience with React and TypeScript        |
 | running code                          | <1           | Sort of the same as "analyzing output"        |
 
+__Luna Chen__
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            |         |
+| discussions within parts of the group | 2            |         |
+| reading documentation                 | 2            |         |
+| configuration and setup               | 4            |         |
+| analyzing code/output                 | 4            |         |
+| writing documentation                 | 2            |         |
+| writing code                          | 6            |         |
+| running code                          | 1            |         |
 
 
 __placeholder__
@@ -96,6 +107,15 @@ URL: [#2581](https://github.com/bitfocus/companion/issues/2581)
 
 Summary: The software supports the use of variables that can be used to modify the action or visuals of buttons/controls. The software provides a view of all the variables. The goal is to add information about where (as in by what button) and how each variable is used to this view.
 
+
+Title: Add Custom Names to Step Tabs #2605
+
+URL: [#2605](https://github.com/bitfocus/companion/issues/2605)
+
+Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. This feature enables users to customize what they want to name the steps which can help with organization and for finding specific tasks. Currently, the steps are automatically named in order (ex: Step 0, Step 1, Step 2) with no option of customizing the names.
+
+Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication for data persistence.
+
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
 ### #2584 Add duplicate step button
@@ -125,6 +145,19 @@ For each use of a variable the view should show which button uses it and how (e.
 R3: Integration.
 
 The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
+### #2605 Add custom names to step tabs
+
+R1: User Interface Enhancement
+
+A user should have the ability to assign custom names to step tabs within the edit button component of the web UI. This functionality should be accessible and intuitive, possibly through an inline edit option directly on the step tab or by double clicking the step tab.
+
+R2: Feature Functionality
+
+Upon clicking or selecting a step tab, users should be presented with an option to rename the step. The new name should be saved upon user confirmation like pressing Enter and should persist across sessions.
+
+R3: Data Persistence and Integration
+
+The custom names assigned to step tabs should be stored persistently, ensuring that the names are retained across different sessions and are not lost upon refreshing or reopening the web application. This feature should integrate with the backend to save the custom step names, ensuring compatibility with the current data models and workflows.
 
 ## Code changes
 
@@ -140,6 +173,10 @@ The link to the branch containing the patch as well as links to the changes in e
 [IControlFragments.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/IControlFragments.js#L49), 
 [Controller.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/Controller.js#L657), 
 [Normal.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/ControlTypes/Button/Normal.js#L848)
+
+#### #2605 Add Custom Names to Step Tabs
+
+[#2605](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2605/add-custon-step-name)
 
 Optional (point 4): the patch is clean.
 
@@ -159,9 +196,18 @@ There were no specific tests for this issue before we started but one test was a
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/test/Service/Duplicate.test.js)
 
-![After img](./test_logs/log_after_2584.png)
+![After img](./test_logs/log_after_2605.png)
 
 [Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2584.txt)
+
+### After #2605
+
+There were no specific tests for this issue either but one test was added. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break.
+
+[Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2605/add-custon-step-name/companion/test/Service/Rename.test.js)
+
+![After img](./test_logs/log_after_2584.png)
+
 
 ## UML class diagram and its description
 
@@ -213,8 +259,25 @@ Optional (point 2): relation to design pattern(s).
 
 What are your main take-aways from this project? What did you learn?
 
+The major thing we learned from this was about contributing to open source projects. We practiced getting involved in a project by first reading the documentation to get a grasp of what the project was about, and then found interesting issues to resolve.
+
 How did you grow as a team, using the Essence standard to evaluate yourself?
+
+Our team is still in the performing stage. The team is working well together, and we are able to work autonomously. We are usually able to meet all of our commitments, and we are able to adapt our way of workig to suit each assignment. After the completion of this final lab, the team will enter the adjourned state, as we will have accomplished everything we set out to do. During the course, our communication and understanding of each other has improved, which has led to more effective teamwork and a clearer division of tasks. This could of course still be improved further. We usually don't have many meetings apart from an initial one to distribute responsibilities. Having more regular meetings to stay synced with one another is one possible improvement to make sure we are always on the same page.
 
 Optional (point 6): How would you put your work in context with best software engineering practice?
 
+Below we cover the alphas: Requirements, Software System, Stakeholders and Work.
+
+- Benefits of work carried out
+  - One major benefit of the work we carried out is that, since more issues have been resolved, more requirements have been met, meaning        that the requirements alpha has gotten closer to being fullfilled. This also entails that the state of the software system has been         improved. The issues we worked on mainly served to improve the user experience, meaning that the system could be more easily operated,      making it more usable.
+- Drawbacks of work carried out
+  - A potential drawback of the work carried out could be that the new feature also introduces new requirements which must be met, meaning      that the "coherent" stage might have to be revisited, as we might have to reconsider which core characteristics we want the system to       have. Stakeholders of the project might also have to get involved and come to an agreemen on whether or not the change is desirable.
+- Limitations of work carried out
+  - A major limitation is the time constraint we had, since the assignment had to be submitted within two weeks. This limited the amount of     issues we could look at and features we could implement. If we had had more time, it would have been possible to conclude the work with     greater results achieved.
+
 Optional (point 7): Is there something special you want to mention here?
+
+Optional (point 8): In the context of Jonas Öberg's lecture last week, where do you put the project that you have chosen in an ecosystem of open-source and closed-source software? Is your project (as it is now) something that has replaced or can replace similar proprietary software? Why (not)?
+
+As the code is available for anyone to access, and since there is a licese which clearly states that anyone can contribute to and use the code as they wish, the project can definitely be considered an open source project. As far as we can tell, this project won't replace ay proprietary software, as it is hard to find other proprietary projects which cover the same area as this.
