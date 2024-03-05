@@ -109,7 +109,7 @@ URL: [#2605](https://github.com/bitfocus/companion/issues/2605)
 
 Summary: The software includes a feature that allows users to associate a button with specific sequences of actions, which can be executed step by step. This feature enables users to customize what they want to name the steps which can help with organization and for finding specific tasks. Currently, the steps are automatically named in order (ex: Step 0, Step 1, Step 2) with no option of customizing the names.
 
-Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication on the backend.
+Scope: The implementation required changes to seven different source files. The change affects one area in the emulator software but code had to be written to change the UI, the format of the button, as well as the server to handle the websocket communication for data persistence.
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
@@ -158,7 +158,7 @@ The link to the branch containing the patch as well as links to the changes in e
 
 #### #2605 Add Custom Names to Step Tabs
 
-[#2605(https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2605/add-custon-step-name)
+[#2605](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2605/add-custon-step-name)
 
 Optional (point 4): the patch is clean.
 
