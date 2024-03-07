@@ -18,9 +18,9 @@ __Leo Vainio__
 | What                                  | Time (hours) | Comment |
 | ------------------------------------- | ------------ | ------- |
 | plenary discussions/meetings          | 1            | Meeting to setup project        |
-| discussions within parts of the group | 2            | Learning react and reading through docs of the Bitfocus Companion repository.        |
-| reading documentation                 | 3            | Read  all I could find whil troubleshooting setup        |
-| configuration and setup               | 1            | Had some dependenc issues in the beginning but once following the steps in the docs it worked fine        |
+| discussions within parts of the group | 2            | Helping with setup and cofig        |
+| reading documentation                 | 3            |    Learning react and reading through docs of the Bitfocus Companion repository.       |
+| configuration and setup               | 1            | Had some dependency issues in the beginning but once following the steps in the docs it worked fine        |
 | analyzing code/output                 | 4           |         |
 | writing documentation                 | 2            | Creating UML diagram and adding stuff to this report       |
 | writing code                          | 10            | In the beginning, some time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder, but in the end it wasn't too hard to implement the feature. I implemented the duplicate step button (Issue #2584) and wrote a test for it. Writing tests took some time also since I wasn't familiar with the framework.        |
