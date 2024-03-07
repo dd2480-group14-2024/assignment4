@@ -158,16 +158,11 @@ Optional (point 5): considered for acceptance (passes all automated checks). Yes
 
 #### #2584 Add duplicate step button
 
-The link to the branch containing the patch as well as links to the changes in each affected file for this issue is presented below. The patch is clean (point 4) as it primarily introduces new code into the project without introducing any unnecessary alterations or additions to whitespace.
+[#2584](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2584/add-duplicate-step-button) 
+
+`EditButton.tsx`, `SocketIO.ts`, `IControlFragments.js`, `Controller.js` and `Normal.js` are the files that are affected by this patch.
 
 Optional (point 4): the patch is clean. Yes, it is.
-
-[#2584](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2584/add-duplicate-step-button), 
-[EditButton.tsx](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/webui/src/Buttons/EditButton.tsx#L437), 
-[SocketIO.ts](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/shared-lib/lib/SocketIO.ts#L172), 
-[IControlFragments.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/IControlFragments.js#L49), 
-[Controller.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/Controller.js#L657), 
-[Normal.js](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/lib/Controls/ControlTypes/Button/Normal.js#L848)
 
 #### #2605 Add Custom Names to Step Tabs
 
