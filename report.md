@@ -15,38 +15,16 @@ The project we worked on in assignment 3 did not have a very active community, a
 ## Effort spent
 
 __Leo Vainio__
-
-1. plenary discussions/meetings;
-
-1 hour consisting of choosing project, issues, and dividing work.
-
-2. discussions within parts of the group;
-
-1 hour. 
-
-3. reading documentation;
-
-2-3 hours, mainly learning react and reading through docs of the Bitfocus Companion repository.
-
-4. configuration and setup;
-
-1 hour. I got some errors running the project at first due to some missing dependencies but after following the steps provided in the documentation this was solved.
-
-5. analyzing code/output;
-
-2 hours.   
-
-6. writing documentation;
-
-1-2 hours. Creating UML diagram and adding documentation in this report.
-
-7. writing code;
-
-10 hours. In the beginning, some time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder, but in the end it wasn't too hard to implement the feature. I implemented the duplicate step button (Issue #2584) and wrote a test for it. Writing tests took some time also since I wasn't familiar with the framework.
-
-8. running code
-
-Approximately 1 hour. The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.
+| What                                  | Time (hours) | Comment |
+| ------------------------------------- | ------------ | ------- |
+| plenary discussions/meetings          | 1            | Meeting to setup project        |
+| discussions within parts of the group | 2            | Learning react and reading through docs of the Bitfocus Companion repository.        |
+| reading documentation                 | 3            | Read  all I could find whil troubleshooting setup        |
+| configuration and setup               | 1            | Had some dependenc issues in the beginning but once following the steps in the docs it worked fine        |
+| analyzing code/output                 | 4           |         |
+| writing documentation                 | 2            | Creating UML diagram and adding stuff to this report       |
+| writing code                          | 10            | In the beginning, some time was spent trying to understand the project and how different classes interacted. I was a bit rusty at JS and have never used React which made it a bit harder, but in the end it wasn't too hard to implement the feature. I implemented the duplicate step button (Issue #2584) and wrote a test for it. Writing tests took some time also since I wasn't familiar with the framework.        |
+| running code                          | 1           |    The project takes a minute to build so running it after changes was a bit tedious at times but not too bad.    |
 
 __Teodor Morfeldt Gadler__
 | What                                  | Time (hours) | Comment |
@@ -95,24 +73,6 @@ __William Nordwall__
 | writing documentation                 | 8            |         |
 | writing code                          | <1            |         |
 | running code                          | <1            |         |
-
-__placeholder__
-
-1. plenary discussions/meetings;
-
-2. discussions within parts of the group;
-
-3. reading documentation;
-
-4. configuration and setup;
-
-5. analyzing code/output;
-
-6. writing documentation;
-
-7. writing code;
-
-8. running code?
 
 ## Overview of issues and work done.
 
