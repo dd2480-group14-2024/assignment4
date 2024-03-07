@@ -187,6 +187,7 @@ I did not have the time to complete the implementation of additional unit tests.
 ### After #2584
 
 Optional (Point 3, tracability)
+
 There were no specific tests for this issue before we started but one test was added (linked below) which is mostly linked to requirement R2 which is specified further up in the document. It checks that the duplicated step is a copy of the original one and not the same object. As seen in the logs below it is also clear that requirement R3 is fulfilled since the implementation causes no breaks in the other tests.
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/test/Service/Duplicate.test.js)
