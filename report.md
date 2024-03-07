@@ -219,16 +219,6 @@ The project uses the very popular model view controller (MVC) design pattern for
 ![Issue #2605](./assets/issue2605.jpg)
 
 
-## Code changes
-
-## UML class diagram and its description
-
-### Key changes/classes affected
-
-Optional (point 1): Architectural overview.
-
-Optional (point 2): relation to design pattern(s).
-
 ## Overall experience
 
 What are your main take-aways from this project? What did you learn?
