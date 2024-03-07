@@ -192,7 +192,7 @@ There were no specific tests for this issue before we started but one test was a
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2584/add-duplicate-step-button/companion/test/Service/Duplicate.test.js)
 
-![After img](./test_logs/log_after_2605.png)
+![After img](./test_logs/log_after_2584.png)
 
 [Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2584.txt)
 
@@ -202,7 +202,9 @@ There were no specific tests for this issue either but one test was added. It ch
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2605/add-custon-step-name/companion/test/Service/Rename.test.js)
 
-![After img](./test_logs/log_after_2584.png)
+![After img](./test_logs/log_after_2605.png)
+
+
 
 
 ## UML class diagram and its description
