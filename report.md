@@ -217,9 +217,6 @@ The project uses the very popular model view controller (MVC) design pattern for
 #### #2605 UML diagram
 ![Issue #2605](./assets/issue2605.jpg)
 
-Optional (point 1): Architectural overview.
-
-Optional (point 2): relation to design pattern(s).
 
 ## Code changes
 
