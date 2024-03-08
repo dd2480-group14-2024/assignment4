@@ -76,7 +76,7 @@ __William Nordwall__
 
 ## Overview of issues and work done.
 
-__Title: Add "Duplicate Step" button #2584__
+#### Add "Duplicate Step" button #2584
 
 URL: [#2584](https://github.com/bitfocus/companion/issues/2584)
 
@@ -84,14 +84,14 @@ Summary: The software includes a feature that allows users to associate a button
 
 Scope: The implementation required changes to five different source files. The change affects one component in the emulator software but code had to be written for the server as well to handle the websocket communication.
 
-__Title: List of where variable is used #2581__
+#### List of where variable is used #2581
 
 URL: [#2581](https://github.com/bitfocus/companion/issues/2581)
 
 Summary: The software supports the use of variables that can be used to modify the action or visuals of buttons/controls. The software provides a view of all the variables. The goal is to add information about where (as in by what button) and how each variable is used to this view.
 
 
-Title: Add Custom Names to Step Tabs #2605
+#### Add Custom Names to Step Tabs #2605
 
 URL: [#2605](https://github.com/bitfocus/companion/issues/2605)
 
@@ -101,7 +101,7 @@ Scope: The implementation required changes to seven different source files. The 
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
-## #2584 Add duplicate step button
+#### #2584 Add duplicate step button
 
 R1: User interface. 
 
@@ -115,7 +115,7 @@ R3: Integration.
 
 The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
 
-### #2581 List of where variable is being used
+#### #2581 List of where variable is being used
 
 R1: User interface. 
 
@@ -128,7 +128,7 @@ For each use of a variable the view should show which button uses it and how (e.
 R3: Integration.
 
 The feature should integrate seamlessly with the current software and should not cause any breaks somewhere else.
-### #2605 Add custom names to step tabs
+#### #2605 Add custom names to step tabs
 
 R1: User Interface Enhancement
 
@@ -172,17 +172,20 @@ Optional (point 5): considered for acceptance (passes all automated checks).
 
 ## Test results
 
-### Before
+#### Before
 ![before img](./test_logs/log_before.png)
 
 [Logs before](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_before.txt)
 
-### After #2581
+#### After #2581
+There were no tests related to this issue. I did not have the time to complete the implementation of additional unit tests.
+
 ![After img](./test_logs/log_after_2581.png)
 
-I did not have the time to complete the implementation of additional unit tests.
+[Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2581.txt)
 
-### After #2584
+
+#### After #2584
 
 Optional (Point 3, tracability)
 
@@ -194,7 +197,7 @@ There were no specific tests for this issue before we started but one test was a
 
 [Logs after](https://github.com/dd2480-group14-2024/assignment4/blob/main/test_logs/log_after_2584.txt)
 
-### After #2605
+#### After #2605
 
 There were no specific tests for this issue either but one test was added. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break.
 
@@ -207,7 +210,11 @@ There were no specific tests for this issue either but one test was added. It ch
 
 ## UML class diagram and its description
 
-### Key changes/classes affected
+#### #2581 UML Diagram
+
+A map of where each variable is used is calculated in the `Variable` class. This map can be retrieved by making a request a outlined in the `<<ClientToBackendEventsMap>>`. The `CustomVariableList` class makes such requests at regular intervals to ensure that the lists that it renders is always up to date.
+
+![Issue #2581](./assets/2581_uml.png)
 
 #### #2584 UML diagram
 
