@@ -166,9 +166,11 @@ Optional (point 4): the patch is clean. Yes, it is.
 
 [#2605](https://github.com/dd2480-group14-2024/companion/tree/feature/issue-2605/add-custon-step-name)
 
-Optional (point 4): the patch is clean.
+`EditButton.tsx`, `SocketIO.ts`, `ButtonModel.ts`, `FragmentActions.js`, `IControlFragments.js`, `Controller.js` and `Normal.js` are the files that are affected by this patch.
 
-Optional (point 5): considered for acceptance (passes all automated checks).
+Optional (point 4): the patch is clean. Yes it is.
+
+Optional (point 5): considered for acceptance (passes all automated checks). Yes.
 
 ## Test results
 
@@ -201,7 +203,7 @@ There were no specific tests for this issue before we started but one test was a
 
 Optional (Point 3, tracability)
 
-There were no specific tests for this issue either but one test was added. It is mostly linked to requirement R2 for this issue. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break, requirement R3.
+There were no specific tests for this issue either but one test was added. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. This satisfies R2 as that covers the feature functionality. It also fulfills the requirement that the implementation does not cause other tests to break which is R3 as it integrates with the rest of the code.
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2605/add-custon-step-name/companion/test/Service/Rename.test.js)
 
@@ -225,6 +227,8 @@ The project uses the very popular model view controller (MVC) design pattern for
 ![Issue #2584](./assets/issue2584.drawio.png)
 
 #### #2605 UML diagram
+The client (EditButton class) sends a websocket emit event to the controller on the server side when a user presses a specific button in the UI. The handler calls the corresponding function in the ControlButtonNormal class which implements the rename function. When the step has been renamed the change is saved on the server, and the controller sends back the name id of the new step to the client (EditButton).
+
 ![Issue #2605](./assets/issue2605.jpg)
 
 
