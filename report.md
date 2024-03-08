@@ -199,7 +199,9 @@ There were no specific tests for this issue before we started but one test was a
 
 #### After #2605
 
-There were no specific tests for this issue either but one test was added. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break.
+Optional (Point 3, tracability)
+
+There were no specific tests for this issue either but one test was added. It is mostly linked to requirement R2 for this issue. It checks that a step is renamed and that the new name for that step is the same as what we had planned to rename it to. It also fulfills the requirement that the implementation does not cause other tests to break, requirement R3.
 
 [Link to test](https://github.com/dd2480-group14-2024/companion/blob/feature/issue-2605/add-custon-step-name/companion/test/Service/Rename.test.js)
 
