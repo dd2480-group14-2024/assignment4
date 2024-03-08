@@ -101,7 +101,7 @@ Scope: The implementation required changes to seven different source files. The 
 
 ## Requirements for the new feature or requirements affected by functionality being refactored
 
-### #2584 Add duplicate step button
+## #2584 Add duplicate step button
 
 R1: User interface. 
 
@@ -143,8 +143,6 @@ R3: Data Persistence and Integration
 The custom names assigned to step tabs should be stored persistently, ensuring that the names are retained across different sessions and are not lost upon refreshing or reopening the web application. This feature should integrate with the backend to save the custom step names, ensuring compatibility with the current data models and workflows.
 
 ## Code changes
-
-### Patch
 
 #### #2581 List where variables are used
 `git diff feat/issue-2581/list-of-variables-are-used..main`
